@@ -14,8 +14,8 @@ variable "provider_region" {
   type    = string
   default = "eu-west-1"
 }
-variable "ec2" {
-  default = 6
+variable "clients" {
+  default = 2
   type = number
 }
 # variable "subnets" {
